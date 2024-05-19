@@ -29,6 +29,7 @@ import AdminProductFormPage from './pages/AdminProductFormPage';
 import AdminOrdersPage from './pages/AdminOrdersPage';
 import StripeCheckout from './pages/StripeCheckout';
 import PaymentFailed from './pages/PaymentFailed';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 
 
 const router = createBrowserRouter([
@@ -148,6 +149,11 @@ const router = createBrowserRouter([
     path: '/logout',
     element: <Logout></Logout>,
   },
+  {
+    path: '/forgot-password',
+    element: <ForgotPasswordPage></ForgotPasswordPage>,
+  },
+  
   {
     path: '/payment-cancel',
     element: (

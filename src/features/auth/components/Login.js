@@ -22,9 +22,9 @@ export default function Login() {
       {user && <Navigate to="/" replace={true}></Navigate>}
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <IoLogoFoursquare  className="h-8 w-8 text-white bg-yellow-500"/>
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Log in to your account
+          <IoLogoFoursquare  className="text-center mx-auto h-16 w-auto text-white bg-yellow-500"/>
+          <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+            Welcome to FabCart<br/> Please Login to your account 
           </h2>
         </div>
 
